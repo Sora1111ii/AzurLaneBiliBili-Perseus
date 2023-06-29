@@ -37,7 +37,7 @@ if [ ! -d "Perseus" ]; then
 fi
 
 echo "Decompile Azur Lane apk"
-java -jar apktool.jar -q -f d com.YoStarJP.AzurLane
+java -jar apktool.jar -q -f d com.YoStarJP.AzurLane.apk
 
 echo "Copy Perseus libs"
 cp -r Perseus/. com.YoStarJP.AzurLane/lib/
