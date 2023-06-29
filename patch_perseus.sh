@@ -35,7 +35,6 @@ chmod +x apkeep
 fi
 {
     echo "apk downloaded !"
-fi
 
 # Download Perseus
 if [ ! -d "Perseus" ]; then
