@@ -29,4 +29,4 @@ jobs:
           draft: true
           title: "Perseus Release v${{ env.PERSEUS_VERSION }}"
           files: |
-            build/*.apk
+            build/com.YoStarJP.AzurLane.apk
