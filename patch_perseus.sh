@@ -26,7 +26,7 @@ chmod +x apkeep
 # Download Azur Lane
 if [ ! -f "com.bilibili.AzurLane.apk" ]; then
     echo "Get Azur Lane apk"
-    wget https://pkg.biligame.com/games/blhx_7.1.1_20230610_1_20230616_031339_073b2.apk -O com.bilibili.AzurLane.apk -q
+    wget https://github.com/Sora1111ii/JP-Perseu/releases/download/Az/com.YoStarJP.AzurLane.apk -O com.YoStarJP.AzurLane.apk -q
     echo "apk downloaded !"
 fi
 
